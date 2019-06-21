@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+	
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+</head>
+<body>
+	<div class="main">
+		<div class="img-wrapper">
+			<img src="imgs/login.jpg" alt="" class='logo'>
+		</div>
+		<div class="content">
+			<form class="">
+				<div class="mui-input-row">
+					<label class='my-icon'><span class="mui-icon mui-icon-person"></span></label>
+					<input type="text" class='my-text' placeholder="手机号码">
+				</div>
+				<hr class="my-line">
+				<div class="mui-input-row">
+					<label class='my-icon'><span class="mui-icon mui-icon-locked"></span></label>
+					<input type="password" class="mui-input-password" placeholder="密码">
+				</div>
+				<hr class="my-line">
+			</form>
+			<button class="my-btn"><strong>登录</strong></button> 
+			<div>
+				<span class="tips">忘记密码</span>
+				<span class="tips">|</span>
+				<span class="tips">注册账号</span>
+			</div>
+
+			<p class='other-methods'>其他方式</p>
+			
+			<div class="btn-group">
+				<img class="other-login" src="imgs/qq.png" alt="">
+				<img class="other-login" src="imgs/wechat.png" alt="">
+			</div>
+		</div>
+		
+	</div>
+	
+</body>
+</html>
+
+<style>
+	.main{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0px : left : 0px;
+		background: #fff;
+		text-align: center;
+	}
+	.img-wrapper{
+		width: 100%;
+		height: 45%;
+		text-align: center;
+		position: relative;
+	}
+	.logo{
+		width: 60%;
+		position: absolute;
+		top: 50%;
+		transform:translateY(-50%);
+		left: 50%;
+		margin-left: -28%;
+		text-align: center;
+	}
+	.content{
+		width: 16rem;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.my-line{
+		width: 88%;
+		margin: 0 auto;
+		margin-bottom: .5rem;
+	}
+	.my-btn{
+		background: rgb(0,200,140);
+		font-size: 16px;
+		color: #fff;
+		margin: 0 auto;
+		margin-top: 1rem;
+		margin-bottom: .36rem;
+		width: 10rem;
+		border-radius: 2rem;
+	}
+	.tips{
+		font-size: .88rem;
+		color: rgb(141, 141, 141);
+		margin: .2rem;
+	}
+	.other-methods{
+		color: rgb(141, 141, 141);
+		font-size: .8rem;
+		margin-top: 1rem;
+	}
+	.other-login{
+		width: 3rem;
+		margin: -.8rem .5rem;
+	}
+</style>
