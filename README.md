@@ -6,7 +6,7 @@ Vanni辉的大学毕业项目，课题【基于百度地图的拼车网设计与
 上下班拼车，预约出行，绿色环保，节能减排
 
 - 司机端地址：https://github.com/VanniAmor/vanni_hitch_driver
-- 乘客端地址：https://github.com/VanniAmor/vanni_hitch_driver
+- 乘客端地址：https://github.com/VanniAmor/vanni_hitch_passenger
 
 `项目仅做学习和交流，请勿用作商业用途和销售获利`
 
